@@ -1,0 +1,153 @@
+@font-face {
+  src: url(./assets/fonts/Karla-Bold.ttf);
+  font-family: 'Karla-Bold';
+}
+
+@font-face {
+  src: url(./assets/fonts/Karla-Regular.ttf);
+  font-family: 'Karla-Regular';
+}
+
+@font-face {
+  src: url(./assets/fonts/Inter-Regular.ttf);
+  font-family: 'Inter-Regular';
+}
+
+@font-face {
+  src: url(./assets/fonts/impact.ttf);
+  font-family: 'Impact';
+}
+
+html { font-size:62.5%; }
+
+body { background-color: #DCDCDC;}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+h1 {
+  font-family: 'Karla-Bold';
+  font-size:2rem;
+}
+
+h2 {
+  font-family: 'Impact';
+  font-size:3.2rem;
+  -webkit-text-stroke: 0.1rem #000000;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Inter-Regular';
+  font-size:1.2rem;
+}
+
+.bg-white { background-color:#FFFFFF; }
+
+.text-white { color:#FFFFFF; }
+
+.d-flex { display:flex; }
+
+.align-items-center { align-items:center;}
+
+.justify-content-center { justify-content:center; }
+
+.justify-content-between { justify-content:space-between; }
+
+.container {
+  width:55rem;
+  margin:auto;
+}
+
+header {
+  height:6.5rem;
+  width:100%;
+  padding-left:2rem;
+  padding-right:3.7rem;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.nav-img {
+  width:3.1rem;
+  height:2.6rem;
+}
+
+header .left-side .heading {padding-left:0.7rem; }
+
+.main {
+  width:100%;
+  padding-top:3.6rem;
+  padding-bottom:5.5rem;
+  padding-left:3.6rem;
+  padding-right:3.6rem;
+}
+
+.form { padding-bottom:3.6rem;}
+
+input:focus { outline: none; }
+
+::placeholder {
+    font-family: 'Karla-Regular'; 
+    font-size:1.2rem;
+    color:#0D0D0D; 
+}
+
+.form input {
+  font-family: 'Karla-Regular';
+  font-size:1.2rem;
+  color:#0D0D0D;
+  height:3.5rem;
+  width:23rem;
+  border-radius:0.5rem;
+  border:0.1rem solid #D5D4D8;
+  padding-left:1.1rem;
+}
+
+.input2 { margin-left:1.7rem; }
+
+.btn-form {
+  font-family: 'Karla-Regular';
+  font-size:1.6rem;
+  width:47.7rem;
+  height:4rem;
+  border-radius:0.5rem;
+  background: linear-gradient(90deg, #711F8D 1.14%, #A818DA 100%);
+  margin-top:1.5rem;
+}
+
+.btn-img {
+  margin-left:0.4rem;
+  width:1.6rem;
+  height:1.6rem;
+}
+
+.meme-display-div { 
+  position:relative; 
+  text-align: center; 
+}
+
+.meme-img {
+  width:100%;
+  height:auto;
+  border-radius:0.2rem;
+}
+
+.text-top-text { 
+  position: absolute;
+  top:1.6rem;
+  left:0rem;
+  right:0rem;
+}
+
+.text-bottom-text { 
+  position: absolute;
+  bottom:1.6rem;
+  left:0rem;
+  right:0rem;
+}
+
+@media only screen and (max-width: 139px) { html { font-size:40%; } }
